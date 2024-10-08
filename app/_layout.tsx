@@ -60,7 +60,7 @@ function RootLayoutNav() {
       <StatusBar barStyle={colorScheme === 'dark' ? 'light-content' : 'dark-content'} />
       <Stack>
         <Stack.Screen
-          name="(tabs)"
+          name="(drawer)"
           options={{
             headerShown: false,
           }}

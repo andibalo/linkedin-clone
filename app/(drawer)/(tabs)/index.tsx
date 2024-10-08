@@ -21,7 +21,7 @@ export default function HomeScreen() {
             <XStack alignItems='center' justifyContent='space-between'>
               <XStack alignItems='center' gap="$1.5">
                 <Text fontWeight="bold">
-                  Arindya Permata
+                  Bocchi The Rock
                 </Text>
                 <View h={3} w={3} borderRadius={999} bg="black" />
                 <Text color="$gray10">
@@ -34,7 +34,7 @@ export default function HomeScreen() {
               </XStack>
             </XStack>
             <Text fontSize="$2" color="$gray10">
-              Recruitment Consulant
+              Customer Service
             </Text>
             <XStack alignItems='center' gap="$1.5">
               <Text fontSize="$2" color="$gray10">
@@ -67,7 +67,7 @@ export default function HomeScreen() {
         <View px="$3" py="$3">
           <XStack alignItems='center' justifyContent='space-between' >
             <Text fontSize="$2">
-              Pandu Aditama dan 13 lainnya
+              LeBum James dan 13 lainnya
             </Text>
             <Text fontSize="$2">
               4 Komentar
@@ -112,7 +112,7 @@ export default function HomeScreen() {
             <Avatar circular size="$5">
               <Avatar.Image
                 accessibilityLabel="Cam"
-                src="https://randomuser.me/api/portraits/men/75.jpg"
+                src="https://randomuser.me/api/portraits/men/76.jpg"
               />
               <Avatar.Fallback backgroundColor="$blue10" />
             </Avatar>
@@ -121,7 +121,7 @@ export default function HomeScreen() {
             <XStack alignItems='center' justifyContent='space-between'>
               <XStack alignItems='center' gap="$1.5">
                 <Text fontWeight="bold">
-                  Arindya Permata
+                  Cold Palmer
                 </Text>
                 <View h={3} w={3} borderRadius={999} bg="black" />
                 <Text color="$gray10">
@@ -134,7 +134,7 @@ export default function HomeScreen() {
               </XStack>
             </XStack>
             <Text fontSize="$2" color="$gray10">
-              Recruitment Consulant
+              Recruitment Consultant
             </Text>
             <XStack alignItems='center' gap="$1.5">
               <Text fontSize="$2" color="$gray10">
@@ -167,10 +167,10 @@ export default function HomeScreen() {
         <View px="$3" py="$3">
           <XStack alignItems='center' justifyContent='space-between' >
             <Text fontSize="$2">
-              Pandu Aditama dan 13 lainnya
+              Nokotan dan 10 lainnya
             </Text>
             <Text fontSize="$2">
-              4 Komentar
+              2 Komentar
             </Text>
           </XStack>
         </View>
