@@ -1,9 +1,12 @@
 import { SafeAreaView } from 'react-native-safe-area-context'
-import { View, XStack, Avatar, Input } from 'tamagui'
+import { View, XStack, Avatar, Text } from 'tamagui'
 import { MessageSquareMore } from '@tamagui/lucide-icons'
 import { Pressable } from 'react-native'
+import { useNavigation } from 'expo-router'
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 export const TabHeader = () => {
+    const navigation = useNavigation()
 
     return (
         <SafeAreaView>
@@ -17,9 +20,17 @@ export const TabHeader = () => {
                         <Avatar.Fallback backgroundColor="$blue10" />
                     </Avatar>
                 </View>
-                <View flex={1} >
-                    <Input size="$3" borderWidth={2} />
-                </View>
+                <Pressable style={{ flex: 1 }} onPress={() => {
+                    // @ts-ignore
+                    navigation.navigate('Search')
+                }}>
+                    <View flex={1} bg="#dce6f1" borderRadius="$2" px="$2">
+                        <XStack flex={1} alignItems='center' gap="$2">
+                            <FontAwesome name="search" size={18} color="black" />
+                            <Text color="$gray10">Cari</Text>
+                        </XStack>
+                    </View>
+                </Pressable>
                 <View >
                     <Pressable>
                         <MessageSquareMore />

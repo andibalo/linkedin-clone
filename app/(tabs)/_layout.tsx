@@ -1,5 +1,5 @@
-import { Link, Tabs } from 'expo-router'
-import { Button, useTheme } from 'tamagui'
+import { Tabs } from 'expo-router'
+import { useTheme } from 'tamagui'
 import { Home, Users, PlusSquare, Bell } from '@tamagui/lucide-icons'
 import { TabHeader } from 'components/common'
 import Entypo from '@expo/vector-icons/Entypo';
@@ -10,7 +10,7 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: theme.red10.val,
+        tabBarActiveTintColor: "black",
         tabBarStyle: {
           backgroundColor: theme.background.val,
           borderTopColor: theme.borderColor.val,
