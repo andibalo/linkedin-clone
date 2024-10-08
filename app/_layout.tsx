@@ -10,6 +10,7 @@ import { useTheme } from 'tamagui'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { Drawer } from 'expo-router/drawer';
+import { SearchHeader } from 'components/SearchHeader'
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -67,6 +68,9 @@ function RootLayoutNav() {
         />
         <Stack.Screen
           name="Search"
+          options={{
+            header: () => <SearchHeader />,
+          }}
         />
         <Stack.Screen
           name="modal"
